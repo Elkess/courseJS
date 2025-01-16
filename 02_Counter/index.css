@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /*font-size: xx-large;*/
+}
+body{
+    display:flex ;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.container{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-size: 2rem;
+}
+#value {
+    font-size: 3rem;
+    font-weight:600;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+.btn:hover {
+    transform: rotate(5deg);
+}
